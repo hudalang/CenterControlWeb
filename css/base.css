@@ -1,0 +1,13 @@
+body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input{ margin:0; padding:0;}
+
+body
+{
+    background: #636363;
+    /*background: rgba(200, 200, 200, 0.5) url("../images/bg.jpg") no-repeat;*/
+    background-size: cover;
+    -webkit-background-size: cover;
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+    color: #aaa;
+
+}

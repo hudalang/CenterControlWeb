@@ -1,0 +1,64 @@
+.qr{
+    width: 300px;
+    height: 300px;
+    display: block;
+    border-radius: 10px;
+    /*border-style: solid;*/
+    margin: 20px auto;
+}
+.content
+{
+    /*height: 800px;*/
+    width: 650px;
+    /*background: #888888;*/
+    margin: 10px auto;
+    padding-top: 10px;
+
+}
+
+.textArea ul li{
+    list-style-type:none;
+    width: 300px;
+    height: 40px;
+    margin-left: 200px;
+}
+.content p{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin: 0px 10px;
+    color: #ffffff;
+    float: left;
+}
+
+.content .name
+{
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-top: 4px;
+    background: url("../images/about.png") no-repeat 0px -64px;
+}
+
+.content .tel
+{
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-top: 4px;
+    background: url("../images/about.png") no-repeat 0px 0px;
+}
+.content .mail
+{
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-top: 4px;
+    background: url("../images/about.png") no-repeat 0px -32px;
+}
+
+.textArea
+{
+    margin: 0 auto;
+}
+

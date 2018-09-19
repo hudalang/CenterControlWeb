@@ -1,0 +1,207 @@
+/*头部样式*/
+.header{
+    width: 100%;
+    height: 64px;
+    margin: 0 auto ;
+    background: rgba(0,0,0,1);
+    box-sizing: border-box;
+}
+
+.header .header_content{
+    width: 860px;
+    margin: 0 auto;
+}
+.header .logo
+{
+    width: 56px;
+    height: 56px;
+    margin-top: 4px;
+    float: left;
+    margin-right: 50px;
+    background: url("../images/logo.png") no-repeat center center;
+    background-size: cover;
+}
+
+.header .nav
+{
+    /*height: 64px;*/
+    float: left;
+}
+.header .nav ul li
+{
+    list-style-type:none;
+    display: inline-block;
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+.header .nav .currentPage
+{
+    /*background: cadetblue;*/
+    border-bottom: solid #00b2bb 3px;
+    height: 64px;
+}
+.header .nav ul li a
+ {
+     display: inline-block;
+     text-decoration: none;
+     color: #ddd;
+     font-size: 20px;
+     letter-spacing: 4px;
+     font-weight: bold;
+     line-height: 64px;
+
+ }
+.header .nav ul li a:hover
+{
+    color: #00b2bb;
+}
+.header .about{
+    margin-right: 8px;
+    float: right;
+    line-height: 64px;
+}
+.header .about a{
+    text-decoration: none;
+    color: #888;
+}
+/*尾部显示*/
+.footer{
+    width: 100%;
+    height: 64px;
+    margin: 0 auto ;
+    line-height: 64px;
+    text-align: center;
+}
+
+/*开关按钮样式*/
+.switch_box{
+    height: 100px;
+    width: 100%;
+    background:  rgba(0, 42, 127, 0.4);
+    line-height: 100px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.switch_box h2{
+    margin-left: 10px;
+    display: inline-block;
+    float: left;
+    color: aliceblue;
+}
+.switch_box .describe{
+    margin-left: 10px;
+    display: inline-block;
+    float: left;
+}
+.switch_box .switch{
+    display: inline-block;
+    float: right;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 25px 15px;
+    text-align: center;
+    background: #0083c9;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 16px;
+    color: white;
+    box-shadow: 0 4px 7px 0 rgba(0,0,0,0.2), 0 2px 3px 0 rgba(0,0,0,0.2);
+
+}
+
+a.on:active,a.off:active{
+    background: #28991a;
+    box-shadow: none;
+}
+
+.switch_box .on{
+    background: #0083c9;
+}
+.switch_box .off{
+     background: #D38D0A;
+ }
+
+/*播放区域样式*/
+.play_box{
+    height: 150px;
+    width: 750px;
+    background: rgba(0, 42, 127, 0.4);
+    line-height: 150px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.play_box ul{
+    display: inline-block;
+    width: 560px;
+    height: 150px;
+    float: right;
+    margin: 0;
+}
+
+.play_box li{
+    list-style: none;
+    width: 80px;
+    height: 150px;
+    float: right;
+    text-align: center;
+}
+.play_box li a{
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    padding: 0;
+    float: none;
+    margin: 35px 0 0 15px;
+    box-shadow: 0 4px 7px 0 rgba(0,0,0,0.2), 0 2px 3px 0 rgba(0,0,0,0.2);
+}
+.play_box li p{
+
+    line-height: 20px;
+    margin-top: 10px;
+}
+
+.play_box .play
+{
+    background: url("../images/play.png") 0 0px no-repeat;
+}
+.play_box .stop
+{
+    background: url("../images/play.png") -100px 0px no-repeat;
+}
+.play_box .vol_add
+{
+    background: url("../images/play.png") 0 -50px no-repeat;
+}
+.play_box .vol_sub
+{
+    background: url("../images/play.png") -50px -50px no-repeat;
+}
+.play_box .mute
+{
+    background: url("../images/play.png") -100px -50px no-repeat;
+}
+
+.play_box .loop
+{
+    background: url("../images/play.png") -50px -100px no-repeat;
+}
+
+.play_box h2{
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    float: left;
+    font-size: 20px;
+
+}
+.play_box .describe{
+    display: inline-block;
+    height: 70px;
+    width:250px;
+    float: left;
+    line-height: 100px;
+    /*padding-top: 20px;*/
+    overflow: hidden;
+}
