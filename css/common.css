@@ -18,7 +18,7 @@
     margin-top: 4px;
     float: left;
     margin-right: 50px;
-    background: url("../images/logo.png") no-repeat center center;
+    /*background: url("../images/logo.png") no-repeat center center;*/
     background-size: cover;
 }
 
@@ -33,6 +33,7 @@
     display: inline-block;
     padding: 0px 20px;
     box-sizing: border-box;
+    float: left;
 }
 .header .nav .currentPage
 {
@@ -51,9 +52,10 @@
      line-height: 64px;
 
  }
-.header .nav ul li a:hover
+.header .nav ul li:hover
 {
-    color: #00b2bb;
+    /*color: #00b2bb;*/
+    background-color: #3c3f41;
 }
 .header .about{
     margin-right: 8px;
@@ -63,6 +65,7 @@
 .header .about a{
     text-decoration: none;
     color: #888;
+    font-size: 15px;
 }
 /*尾部显示*/
 .footer{
